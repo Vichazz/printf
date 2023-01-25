@@ -7,9 +7,9 @@
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width
- *  @precision: Precision specification
- *  @size: Size specifier
- *  Return: Number of chars printed.
+ * @precision: Precision specification
+ * @size: Size specifier
+ * Return: Number of chars printed.
  */
 int print_pointer(va_list types, char buffer[],
 		int flags, int width, int precision, int size)
@@ -139,7 +139,7 @@ int print_reverse(va_list types, char buffer[],
 /**
  * print_rot13string - Print a string in rot13.
  * @types: Lista of arguments
- * @buffer: Buffer array to handle print 
+ * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width
  * @precision: Precision specification
